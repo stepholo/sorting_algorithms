@@ -14,7 +14,7 @@ void swap(int *array, size_t size, int low, int high)
 
 	if (array[low] != array[high])
 	{
-		temp = arrray[low];
+		temp = array[low];
 		array[low] = array[high];
 		array[high] = temp;
 		print_array(array, size);
